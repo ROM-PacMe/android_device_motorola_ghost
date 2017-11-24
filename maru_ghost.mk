@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 $(call inherit-product, device/motorola/ghost/full_ghost.mk)
-$(call inherit-product, vendor/maruos/device-ghost.mk)
+$(call inherit-product, vendor/maruos/device-maru.mk)
 $(call inherit-product, vendor/maruos/BoardConfigVendor.mk)
 
 PRODUCT_NAME := maru_ghost
